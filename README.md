@@ -7,7 +7,7 @@ This model predicts whether or not a child has pneumonia and if so, is it bacter
 
 This solution uses transfer learning applied to a MobileNet model. All training was done in this kernel. MobileNet was designed for the web. It is small (aprox. 35MB) and runs fast.
 
-Findings
+## Findings
 
 From the resulting confusion matrix and classification report it appears that the model is very good at predicting whether or not pneumonia is present, however it also seems to be more likely to predict bacterial pneumonia than viral pneumonia. Initially I was going to try to reduce this sensitivity to bacterial pneumonia but I decided not to do this. Because bacterial pneumonia is more serious than viral pneumonia I left the model as is.
 
