@@ -1,4 +1,4 @@
-# Pediatric-Pneumonia-Predicition
+# Pediatric-Pneumonia-Prediction
 
 
 ## Introduction
